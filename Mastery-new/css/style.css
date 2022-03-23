@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    /* padding: 10px 20px 10px 40px; */
+    margin: 20px 100px;
+}
+.logo {
+    width: 70px;
+    text-decoration: none;
+}
+.header .navbar{
+    margin-top: 10px;
+}
+.header .navbar a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: normal;
+}
+.header .logo i{
+    color: yellow;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px;
+    background-color: #002146;
+    z-index: 1;
+    text-align: -webkit-center;
+
+}
+.header .logo span{
+    position: relative;
+    top: 5px;
+    color: #000000;
+    font-weight: 900;
+    font-size: 30px;
+}
+.carousel img{
+    width: 100%;
+    height: 700px;
+}
+.about {
+    text-align: center;
+    margin: 50px 100px;
+}
+.about__left, .about__right{
+    float: left;
+    width: 50%;
+}
+.about__left{
+    text-align: left;
+    padding-right: 100px;
+}
+.about__left button {
+    margin-top: 20px;
+    background-color: #fdc800;
+    color: #142e45;
+    font-size: 15px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.about__left p {
+    color: #7f7f7f;
+    margin-top: 20px;
+}
+.clear{
+    clear:both;
+}
+.infor {
+    background-color: #f6f6f6;
+    margin-top: 50px;   
+}
+.infor .col {
+    float: left;
+    width: 25%;
+    padding-left: 100px;
+}
+.item__left h2{
+    font-size: 50px;
+
+   
+}
+.item__right h3{
+    font-size: 15px;
+  
+}
+.item__left, .item__right{
+    float: left;
+    width: 10%;
+    padding-right: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.services{
+    margin: 50px 100px;
+    text-align: center;
+}
+.services .row .col{
+    float: left;
+    width: 25%;
+
+}
+.services .row .item {
+    
+    color: #ffffff;
+    width: 200px;
+    height: 100px;
+    background-color: #002146;
+    z-index: 1;
+    text-align: -webkit-center;
+    width: 100%;
+    padding-right: 20px;
+
+}
+.services .row .item i{
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 10px;
+}
